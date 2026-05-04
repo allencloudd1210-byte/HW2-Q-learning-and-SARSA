@@ -459,3 +459,12 @@ commit 已完成，現在把這一筆補推到同一個 main branch。
 
 [93] 助手
 已推上去。conversation_log.txt 現在也在 GitHub repo 裡，最新 branch 仍是 main；這次新增的 commit 是 fa09dfb（開始追蹤 conversation_log.txt）和 e771c10（同步最新記錄）。
+
+[94] 使用者
+README 也可以幫我介紹一下
+
+[95] 助手
+我會直接補一份適合 GitHub 首頁顯示的 README.md，內容會簡潔介紹作業主題、檔案結構、如何執行與目前結果，然後幫你一起推上去。
+
+[96] 助手
+目前 repo 還沒有 README.md。我會補一份偏「交作業 + GitHub 首頁展示」的版本，會直接把兩張結果圖放進去。
