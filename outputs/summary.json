@@ -1,0 +1,172 @@
+{
+  "config": {
+    "rows": 4,
+    "cols": 12,
+    "episodes": 500,
+    "alpha": 0.1,
+    "gamma": 0.9,
+    "epsilon": 0.1,
+    "max_steps_per_episode": 1000,
+    "runs": 5,
+    "seed": 2026
+  },
+  "q_learning": {
+    "name": "Q-learning",
+    "mean_reward_last_100": -46.09,
+    "std_reward_last_100": 25.980321399089735,
+    "mean_cliff_falls_last_100": 0.29600000000000004,
+    "overall_mean_reward": -70.72240000000001,
+    "best_episode_reward": -13.0,
+    "convergence_episode": 163,
+    "greedy_path_length": 13,
+    "greedy_path_reaches_goal": true,
+    "policy_grid": "> ^ ^ > > > v > v > > v\n^ ^ v > ^ > v > > > < v\n> > > > > > > > > > > v\nS C C C C C C C C C C G",
+    "path_grid": ". . . . . . . . . . . .\n. . . . . . . . . . . .\n* * * * * * * * * * * *\nS C C C C C C C C C C G",
+    "path_coordinates": [
+      [
+        3,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        3,
+        11
+      ]
+    ]
+  },
+  "sarsa": {
+    "name": "SARSA",
+    "mean_reward_last_100": -22.734,
+    "std_reward_last_100": 8.455911778158521,
+    "mean_cliff_falls_last_100": 0.038000000000000006,
+    "overall_mean_reward": -51.1052,
+    "best_episode_reward": -15.8,
+    "convergence_episode": 177,
+    "greedy_path_length": 15,
+    "greedy_path_reaches_goal": true,
+    "policy_grid": "> ^ > > > > > > > > > v\n> > > > > > > > > > > v\n^ ^ ^ ^ > ^ ^ > ^ > > v\nS C C C C C C C C C C G",
+    "path_grid": ". . . . . . . . . . . .\n* * * * * * * * * * * *\n* . . . . . . . . . . *\nS C C C C C C C C C C G",
+    "path_coordinates": [
+      [
+        3,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        1,
+        10
+      ],
+      [
+        1,
+        11
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        3,
+        11
+      ]
+    ]
+  },
+  "comparison": {
+    "faster_convergence": "Q-learning",
+    "more_stable": "SARSA",
+    "reward_curve": "Higher reward means better performance because rewards are negative step costs.",
+    "artifacts": {
+      "reward_curve_plot": "outputs/reward_curves.png",
+      "path_plot": "outputs/final_paths.png"
+    }
+  }
+}
