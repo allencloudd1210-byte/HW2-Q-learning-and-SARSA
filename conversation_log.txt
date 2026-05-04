@@ -468,3 +468,12 @@ README 也可以幫我介紹一下
 
 [96] 助手
 目前 repo 還沒有 README.md。我會補一份偏「交作業 + GitHub 首頁展示」的版本，會直接把兩張結果圖放進去。
+
+[97] 助手
+README 已補上。現在我先檢查渲染上最重要的內容，再把 README.md 和更新後的記錄一起 commit/push。
+
+[98] 助手
+內容沒問題。我現在把 README.md 和同步後的 conversation_log.txt 一起推上 GitHub，讓 repo 首頁會直接顯示介紹。
+
+[99] 助手
+我再把這次 README 的 commit/push 也補進 conversation_log.txt，避免 GitHub 上的記錄少掉最後一段。
